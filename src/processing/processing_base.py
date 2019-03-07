@@ -1,4 +1,7 @@
-class ProcessingBase:
+from abc import ABCMeta
+from abc import abstractmethod
+
+class ProcessingBase(metaclass = ABCMeta):
     def __init__(self, id):
         self.id = id
 
@@ -8,6 +11,7 @@ class ProcessingBase:
         print("===== {0}  end  =====".format(input))
 
     # 継承用の処理
+    @abstractmethod
     def execute_s_t_s(self, input):
         pass
 
