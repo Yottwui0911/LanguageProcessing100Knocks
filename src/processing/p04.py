@@ -7,7 +7,7 @@ class processing04(processingBase):
     def a_execute(self, input):
         # 以下の番号だけは先頭1文字をとる
         oneNum = [1, 5, 6, 7, 8, 9, 15, 16, 19]
-        
+
         # 文字を単語単位で分割
         words = input.replace(".", "").split()
         l = []
