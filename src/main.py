@@ -1,5 +1,3 @@
-from processing import Processing00
+import processing
 
-# うまくいかない
-a = Processing00()
-a.string_to_string("hoge")
+processing.p00.processing00().execute("stressed")
