@@ -6,3 +6,4 @@ class processing10(processingBase):
 
     def a_execute(self, input):
         print(self.id + " : " + str(sum(1 for line in input)))
+        input.seek(0)

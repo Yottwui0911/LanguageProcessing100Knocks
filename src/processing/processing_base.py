@@ -18,4 +18,4 @@ class processingBase(metaclass = ABCMeta):
     def execute(self, input):
         self.__start_print(self.id)
         self.a_execute(input)
-        self.__start_print(self.id)
+        self.__end_print(self.id)
