@@ -16,8 +16,9 @@ chap1.p09.processing09().execute("Hello World !")
 # chapter2
 
 # ファイルを開く
-f = open("./data/hightemp.txt","rb")
+f = open("./data/hightemp.txt", "r", encoding="utf-8")
 
 chap2.p10.processing10().execute(f)
+chap2.p11.processing11().execute(f)
 
 f.close()
