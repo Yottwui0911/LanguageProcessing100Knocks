@@ -6,7 +6,7 @@ class processing11(processingBase):
         super().__init__("p11")
 
     def a_execute(self, input):
-        f = open("src/processing/chapter2/tabtospace.txt", "w", encoding="utf-8")
+        f = open("src/processing/chapter2/p11.txt", "w", encoding="utf-8")
         for line in input:
             f.write(str(line).replace("\t", " ") )
         f.close
