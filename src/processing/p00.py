@@ -1,9 +1,9 @@
-from processing_base import ProcessingBase
+from .processing_base import processingBase
 
-class Processing00(ProcessingBase):
+class processing00(processingBase):
     def __init__(self):
         super().__init__("p00")
 
-    def execute_s_t_s(self, input):
+    def a_execute(self, input):
         # 文字列を逆転させて出力する
         print("00 : " + input[::-1])

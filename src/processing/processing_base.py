@@ -1,7 +1,7 @@
 from abc import ABCMeta
 from abc import abstractmethod
 
-class ProcessingBase(metaclass = ABCMeta):
+class processingBase(metaclass = ABCMeta):
     def __init__(self, id):
         self.id = id
 
@@ -12,10 +12,10 @@ class ProcessingBase(metaclass = ABCMeta):
 
     # 継承用の処理
     @abstractmethod
-    def execute_s_t_s(self, input):
+    def a_execute(self, input):
         pass
 
-    def string_to_string(self, input):
+    def execute(self, input):
         self.__start_print(self.id)
-        self.execute_s_t_s(input)
+        self.a_execute(input)
         self.__start_print(self.id)
