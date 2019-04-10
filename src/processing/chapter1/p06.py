@@ -1,4 +1,4 @@
-from .n_gram_process import nGramBase
+from ..n_gram_process import nGramBase
 
 class processing06(nGramBase):
     def __init__(self):

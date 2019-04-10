@@ -1,4 +1,4 @@
-from .processing_base import processingBase
+from ..processing_base import processingBase
 
 class processing04(processingBase):
     def __init__(self):

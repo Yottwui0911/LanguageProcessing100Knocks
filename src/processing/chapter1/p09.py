@@ -1,4 +1,4 @@
-from .processing_base import processingBase
+from ..processing_base import processingBase
 import random
 
 class processing09(processingBase):
