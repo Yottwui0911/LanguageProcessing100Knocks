@@ -18,4 +18,4 @@ class processing04(processingBase):
                 l.append(i[0])
             else:
                 l.append(i[0:2])
-        print (self.id + " : " + "".join(l))
+        print (self.id + " : " , l)
