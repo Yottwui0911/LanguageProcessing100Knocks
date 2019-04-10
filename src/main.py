@@ -8,3 +8,4 @@ processing.p04.processing04().execute("Hi He Lied Because Boron Could Not Oxidiz
 processing.p05.processing05().execute("I am an NLPer")
 processing.p06.processing06().execute(["paraparaparadise","paragraph"])
 processing.p07.processing07().execute([12, "気温", 22.4])
+processing.p08.processing08().execute("Hello World !")
