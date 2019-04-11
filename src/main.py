@@ -26,5 +26,6 @@ chap2.p13.processing13().execute("")
 chap2.p14.processing14().execute([f, 5])
 chap2.p16.processing16().execute([tempPath, 5])
 chap2.p17.processing17().execute(f)
+chap2.p18.processing18().execute(f)
 
 f.close()
