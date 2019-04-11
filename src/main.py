@@ -38,3 +38,4 @@ wikiPath = "./data/jawiki-country.json"
 wiki = open(wikiPath, "r", encoding="utf-8")
 
 uk = chap3.p20.processing20().execute(wiki)
+chap3.p21.processing21().execute(uk)
