@@ -6,7 +6,7 @@ class processing23(processingBase):
         super().__init__("p23")
 
     def a_execute(self, input):
-        print(self.id + " :\n" )
+        print(self.id + " :" )
 
         m = re.finditer("==+([^=]+)==+(\n|)", input)
         for line in m:
