@@ -5,8 +5,8 @@ class processing12(processingBase):
         super().__init__("p12")
 
     def a_execute(self, input):
-        f1 = open("src/processing/chapter2/col1.txt", "w", encoding="utf-8")
-        f2 = open("src/processing/chapter2/col2.txt", "w", encoding="utf-8")
+        f1 = open("src/processing/chapter2/result/col1.txt", "w", encoding="utf-8")
+        f2 = open("src/processing/chapter2/result/col2.txt", "w", encoding="utf-8")
         for line in input:
             sp = line.split("\t")
             f1.write(sp[0] + "\n")
