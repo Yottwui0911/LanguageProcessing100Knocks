@@ -5,6 +5,13 @@ class processing16(processingBase):
         super().__init__("p16")
 
     def a_execute(self, input):
-        l = [line.split("\t")[0] for line in input]
-        print(self.id + " : " , list(set(l)))
-        input.seek(0)
+        f = open(input[0], "r", encoding="utf-8")
+        l = f.readlines()
+        num = input[1]
+        f.seek(0)
+        for idx in range(0, int(len(l) / num) + 1):
+            f = open("src/processing/chapter2/result/p15_" + str(idx) + ".txt", "w", encoding="utf-8")
+            f.write("".join(line for line in l[num * idx:num * (idx + 1)]))
+            f.close
+        print(self.id + " : Done.")
+
