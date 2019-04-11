@@ -6,5 +6,5 @@ class processing21(processingBase):
         super().__init__("p21")
 
     def a_execute(self, input):
-        m = re.finditer(".*Category:.+\n", input)
-        print(self.id + " :\n" + "".join([line.group() for line in m]).rstrip("\n"))
+        m = re.findall("\[\[Category:[^\]]+\]\]", input)
+        print(self.id + " :\n" + "\n".join([line for line in m]).rstrip("\n"))
