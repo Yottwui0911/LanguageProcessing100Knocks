@@ -1,5 +1,6 @@
 import processing.chapter1 as chap1
 import processing.chapter2 as chap2
+import processing.chapter3 as chap3
 
 # chapter1
 chap1.p00.processing00().execute("stressed")
@@ -31,3 +32,9 @@ chap2.p18.processing18().execute(f)
 chap2.p19.processing19().execute(f)
 
 f.close()
+
+# chapter3
+wikiPath = "./data/jawiki-country.json"
+wiki = open(wikiPath, "r", encoding="utf-8")
+
+uk = chap3.p20.processing20().execute(wiki)
