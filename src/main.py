@@ -41,3 +41,6 @@ uk = chap3.p20.processing20().execute(wiki)
 chap3.p21.processing21().execute(uk)
 chap3.p22.processing22().execute(uk)
 chap3.p23.processing23().execute(uk)
+chap3.p24.processing24().execute(uk)
+
+wiki.close()
