@@ -43,6 +43,7 @@ chap3.p22.processing22().execute(uk)
 chap3.p23.processing23().execute(uk)
 chap3.p24.processing24().execute(uk)
 chap3.p25.processing25().execute(uk)
-chap3.p26.processing26().execute(uk)
+rep = chap3.p26.processing26().execute(uk)
+chap3.p27.processing27().execute(rep)
 
 wiki.close()

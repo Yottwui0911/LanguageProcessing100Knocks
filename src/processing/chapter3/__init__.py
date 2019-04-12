@@ -5,3 +5,4 @@ from .p23 import processing23
 from .p24 import processing24
 from .p25 import processing25
 from .p26 import processing26
+from .p27 import processing27
